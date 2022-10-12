@@ -1,0 +1,201 @@
+body {
+    position: relative;
+    height: 100vh;
+}
+
+.navbar-expand-lg.navbar.fixed-top + * {
+    margin-top: 0 !important;
+}
+
+header {
+    background-color: #FFF;
+}
+
+.flex-align-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    padding: 0 1rem !important;
+}
+
+.navbar li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bg-light {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-brand {
+    display: inline-block !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+    margin-right: 1rem !important;
+    font-size: 1.125rem !important;
+    line-height: inherit !important;
+    white-space: nowrap !important;
+}
+
+.txt-bajawines {
+    color: #c5103d !important;
+}
+
+#welcome {
+    height: 100%;
+}
+
+#breadcrumb {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    padding-top: 130px;
+}
+
+#registerFormHome {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 1rem 1.25rem -0.5rem rgba(0, 0, 0, 0.08);
+    padding: 40px;
+}
+
+#frontForm {
+    min-height: 600px;
+}
+
+.titleEvent {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #c5103d;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+#btnRegisterGuest {
+    background: #c5103d;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1.25rem -0.5rem rgba(0, 0, 0, 0.08);
+    color: #fff;
+    display: block;
+    font-size: 1.10rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    padding: 12px;
+    width: 100%;
+}
+
+#btnRegisterGuest:hover {
+    background: #949599;
+}
+
+.input-group-prepend, .input-group-append {
+    display: flex;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.input-group {
+    position: relative !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+    width: 100% !important;
+}
+
+.input-group-text {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    padding: .5rem 1rem !important;
+    margin-bottom: 0 !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #404040 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    background-color: #fff !important;
+    border-radius: 0 !important;
+    border: 1px solid #e1e1e1 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #404040;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+    -webkit-transition: border-color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    transition: border-color 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+
+.maincontent {
+    min-height: 700px;
+}
+
+.page-footer {
+    margin-top: 100px;
+}
+
+.btn-bajawines {
+    background-color: #c5103d !important;
+    color: white !important;
+    border: none !important;
+}
+
+.checkbox-label {
+    label {
+        float: right;
+        margin-left: 27px;
+        text-align: left;
+    }
+}
+
+.lastfooter {
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 0.8em;
+}
+
+#guest_table {
+    padding: 10px;
+}

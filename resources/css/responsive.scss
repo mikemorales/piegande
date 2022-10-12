@@ -1,0 +1,43 @@
+// BOOTSTRAP XS and SM
+@media all and (min-width: 0px) and (max-width: 767px) {
+    #frontForm {
+        background-image: none;
+        margin: 20px 0;
+    }
+}
+
+// BOOTSTRAP XS  < 576px
+@media all and (min-width: 0px) and (max-width: 575px) {
+    #breadcrumb {
+        padding-top: 25px;
+    }
+}
+
+// BOOTSTRAP SM > 576px
+@media all and (min-width: 576px) and (max-width: 767px) {
+    #breadcrumb {
+        padding-top: 25px;
+    }
+}
+
+// BOOTSTRAP MD > 768px
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #breadcrumb {
+        padding-top: 25px;
+    }
+}
+
+// BOOTSTRAP LG > 992px
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+// BOOTSTRAP XL > 1200px
+@media all and (min-width: 1200px) and (max-width: 1399px) {
+
+}
+
+// BOOTSTRAP XXL > 1400px
+@media all and (min-width: 1400px) {
+
+}
